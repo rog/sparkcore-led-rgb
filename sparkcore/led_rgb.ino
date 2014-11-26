@@ -50,7 +50,7 @@ int led_control( String command ){
             if( !strcmp( obj, led_options[j].object_name ) ){
                 i++;
                 strlcpy( obj, &json_str[tok[i].start], ( tok[i].end - tok[i].start + 1 ) );
-                *led_options[j].brightness = atoi( obj );
+                *led_options[j].brightness = constrain( atoi( obj ), 0, 255);
                 Serial.print( led_options[j].label );
                 Serial.println( *led_options[j].brightness );
                 color_count++;
