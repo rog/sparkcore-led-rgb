@@ -1,6 +1,16 @@
 SparkCore Led RGB
 =================
 
+Example of how control a LED RGB with the SparkCore and JSON.
+
+Electronics
+-----------------
+![Electronic Nerd Stuff](http://i.imgur.com/ycsgKw7.png)
+
+WebApp
+-----------------
+![webapp](http://i.imgur.com/WkcHhoi.png)
+
 ## License
 
 SparkCore Led RGB is released under the Beerware License:
